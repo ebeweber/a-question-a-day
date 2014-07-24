@@ -1,5 +1,5 @@
 """
-Implement a function called is_balancedto check if a tree is balanced. For the
+Implement a function called is_balanced to check if a tree is balanced. For the
 purposes of this question, a balanced tree is defined to be a tree such that no
 two leaf nodes differ in distance from the root by more than one.
 """
@@ -47,7 +47,8 @@ def min_and_max_depth(node):
 
 
 # Tests
-# TODO(matthewe|2014-07-23): May be worth moving this to it's own file w/ pytest
+# TODO(matthewe|2014-07-23): May be worth eventually moving this to it's
+# own file w/ pytest
 tree1 = Node()
 assert is_balanced(tree1)
 
